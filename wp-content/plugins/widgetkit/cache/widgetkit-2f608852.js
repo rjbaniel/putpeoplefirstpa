@@ -1,0 +1,1 @@
+var widgetkitajax="http://ppfpa.2complexx.com/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

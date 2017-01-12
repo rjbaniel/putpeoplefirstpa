@@ -1,0 +1,27 @@
+# Keep these files out of the repo
+/.htaccess
+/.user.ini
+/.well-known
+/cgi-bin
+/error_log
+/wordfence-waf.php
+/wp-content/blogs.dir
+/wp-content/cache
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/wp-content/w3tc-config
+/wp-content/wfcache
+/wp-content/wflogs
+/sitemap.*
+/wp-config.php
+*.sql
+
+# Hide these directories, holding subdomains
+/staging
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*

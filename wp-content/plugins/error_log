@@ -1,0 +1,2 @@
+[12-Oct-2015 16:15:01 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/putpggqp/public_html/wp-content/plugins/hello.php on line 60
+[24-Oct-2015 15:22:27 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/putpggqp/public_html/wp-content/plugins/hello.php on line 60

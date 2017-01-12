@@ -1,0 +1,45 @@
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/putpggqp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/putpggqp/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Class 'WP_Widget' not found in /home/putpggqp/public_html/wp-includes/default-widgets.php on line 14
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Call to undefined function feed_content_type() in /home/putpggqp/public_html/wp-includes/feed-atom.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Call to undefined function add_filter() in /home/putpggqp/public_html/wp-includes/class-wp-embed.php on line 28
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Call to undefined function feed_content_type() in /home/putpggqp/public_html/wp-includes/feed-rss2.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/putpggqp/public_html/wp-includes/functions.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/putpggqp/public_html/wp-includes/functions.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/putpggqp/public_html/wp-includes/functions.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/putpggqp/public_html/wp-includes/functions.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/putpggqp/public_html/wp-includes/rss-functions.php on line 8
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Class 'Walker' not found in /home/putpggqp/public_html/wp-includes/nav-menu-template.php on line 16
+[07-Dec-2015 12:44:31 America/New_York] PHP Fatal error:  Call to undefined function is_robots() in /home/putpggqp/public_html/wp-includes/template-loader.php on line 28
+[07-Dec-2015 12:44:32 America/New_York] PHP Fatal error:  Class 'IXR_Server' not found in /home/putpggqp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[07-Dec-2015 12:44:32 America/New_York] PHP Fatal error:  Call to undefined function is_admin() in /home/putpggqp/public_html/wp-includes/vars.php on line 23
+[07-Dec-2015 12:44:32 America/New_York] PHP Fatal error:  Class 'Walker' not found in /home/putpggqp/public_html/wp-includes/post-template.php on line 1325
+[07-Dec-2015 12:44:33 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/putpggqp/public_html/wp-includes/registration-functions.php on line 7
+[07-Dec-2015 12:44:33 America/New_York] PHP Fatal error:  Call to undefined function feed_content_type() in /home/putpggqp/public_html/wp-includes/feed-rdf.php on line 8
+[07-Dec-2015 12:44:33 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/putpggqp/public_html/wp-includes/ms-default-filters.php on line 16
+[07-Dec-2015 12:44:34 America/New_York] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/putpggqp/public_html/wp-includes/class-feed.php on line 4
+[07-Dec-2015 12:44:34 America/New_York] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/putpggqp/public_html/wp-includes/class-feed.php on line 4
+[07-Dec-2015 12:44:34 America/New_York] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /home/putpggqp/public_html/wp-includes/class-feed.php on line 4
+[07-Dec-2015 12:44:34 America/New_York] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/putpggqp/public_html/wp-includes/script-loader.php on line 25
+[07-Dec-2015 12:44:34 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/putpggqp/public_html/wp-includes/class-feed.php on line 4
+[07-Dec-2015 12:44:34 America/New_York] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/putpggqp/public_html/wp-includes/script-loader.php on line 25
+[07-Dec-2015 12:44:34 America/New_York] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/putpggqp/public_html/wp-includes/script-loader.php on line 25
+[07-Dec-2015 12:44:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/putpggqp/public_html/wp-includes/script-loader.php on line 25
+[07-Dec-2015 12:44:34 America/New_York] PHP Fatal error:  Class 'Walker' not found in /home/putpggqp/public_html/wp-includes/category-template.php on line 967
+[07-Dec-2015 12:44:34 America/New_York] PHP Fatal error:  Call to undefined function feed_content_type() in /home/putpggqp/public_html/wp-includes/feed-rss.php on line 8
+[07-Dec-2015 12:44:35 America/New_York] PHP Fatal error:  Call to undefined function add_shortcode() in /home/putpggqp/public_html/wp-includes/media.php on line 831
+[07-Dec-2015 12:44:35 America/New_York] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/putpggqp/public_html/wp-includes/class.wp-scripts.php on line 19
+[07-Dec-2015 12:44:35 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/putpggqp/public_html/wp-includes/registration.php on line 7
+[07-Dec-2015 12:44:36 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/putpggqp/public_html/wp-includes/rss.php on line 19
+[07-Dec-2015 12:44:36 America/New_York] PHP Fatal error:  Class 'IXR_Client' not found in /home/putpggqp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[07-Dec-2015 12:44:36 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/putpggqp/public_html/wp-includes/class-snoopy.php on line 6
+[07-Dec-2015 12:44:37 America/New_York] PHP Fatal error:  Class 'Walker' not found in /home/putpggqp/public_html/wp-includes/comment-template.php on line 1680
+[07-Dec-2015 12:44:38 America/New_York] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/putpggqp/public_html/wp-includes/class-simplepie.php on line 5
+[07-Dec-2015 12:44:38 America/New_York] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/putpggqp/public_html/wp-includes/class-simplepie.php on line 5
+[07-Dec-2015 12:44:38 America/New_York] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/putpggqp/public_html/wp-includes/class-simplepie.php on line 5
+[07-Dec-2015 12:44:38 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/putpggqp/public_html/wp-includes/class-simplepie.php on line 5
+[07-Dec-2015 12:44:38 America/New_York] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/putpggqp/public_html/wp-includes/ms-settings.php on line 14
+[07-Dec-2015 12:44:38 America/New_York] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/putpggqp/public_html/wp-includes/class.wp-styles.php on line 19
+[07-Dec-2015 12:44:38 America/New_York] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/putpggqp/public_html/wp-includes/ms-settings.php on line 14
+[07-Dec-2015 12:44:38 America/New_York] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /home/putpggqp/public_html/wp-includes/ms-settings.php on line 14
+[07-Dec-2015 12:44:38 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/putpggqp/public_html/wp-includes/ms-settings.php on line 14

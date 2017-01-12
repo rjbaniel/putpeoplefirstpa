@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component">
+	<name>Widgetkit</name>
+	<author>YOOtheme</author>
+	<creationDate>September 2014</creationDate>
+	<updateUrl>http://www.yootheme.com/updates</updateUrl>
+	<copyright>Copyright (C) YOOtheme GmbH</copyright>
+	<license>YOOtheme Proprietary Use License (http://www.yootheme.com/license)</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.5.5</version>
+	<description>Widgetkit - A widget toolkit by YOOtheme (http://www.yootheme.com)</description>
+	<files>
+		<filename>widgetkit.php</filename>
+		<filename>README.markdown</filename>
+		<folder>cache</folder>
+		<folder>classes</folder>
+		<folder>css</folder>
+		<folder>helpers</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>languages</folder>
+		<folder>layouts</folder>
+		<folder>widgets</folder>
+	</files>
+</install>

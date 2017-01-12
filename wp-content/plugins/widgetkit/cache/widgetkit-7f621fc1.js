@@ -1,0 +1,1 @@
+var widgetkitajax="https://www.putpeoplefirstpa.org/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

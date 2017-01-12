@@ -1,0 +1,39 @@
+/**
+ * Styles for Free Stripe Subscriptions
+**/
+
+.fss-field_error {
+	font-weight: normal;
+	color: red;
+	font-size: .9em;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.fss-field input {
+	font-size: 1.2em;
+	color: black;
+}
+
+.fss-field {
+	margin-bottom: 20px;
+}
+
+.fss-field_label {
+	color: black;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+}
+
+.fss-field_required::after {
+	content: '*';
+	vertical-align: super;
+	font-size: .9em;
+}
+
+.fss_subscription-success,
+.fss_subscription-fail {
+	font-size: 1.2em;
+	color: black;
+}
