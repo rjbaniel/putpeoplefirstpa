@@ -6,9 +6,14 @@
 <?php
 	if ( $menu_items ) {
 		ppf__logo_nav_item();
+		?>
+		<div class="navigation-list__not-home">
+		<?php
 		foreach( $menu_items as $item ) {
 			ppf__main_navigation_item( $item );
-		}
+		} ?>
+		</div>
+		<?php
 	}
 ?>
 	</ul>

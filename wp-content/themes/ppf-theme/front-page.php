@@ -3,28 +3,58 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<div class="homepage__section">
-				<h2 class="homepage__section-title">Who is Put People First! PA?</h2>
-				<div class="homepage__section-body">
-					<p>This is some great intro text about PPF!</p>
-					<p>Here are some images of PPF members, links to stories, etc.</p>
-					<p>Here's a link to learn more about PPF.</p>
+			<div class="section section--hero">
+				<a class="section__link" href="#">
+					<h2 class="section__title">Put People First! PA</h2>
+					<img class="section__image" src="http://testingppf.org/wp-content/uploads/2017/04/14560153_1340894389268917_4989747621491022833_o1-e1492109058471.jpg">
+					<div class="section__text">
+						Uniting people across Pennsylvania to organize and claim our rights.
+					</div>
+					<div class="section__more-button">Learn more </div>
+				</a>
+			</div>
+			<div class="sections">
+				<div class="section">
+					<a class="section__link" href="#">
+						<h2 class="section__title">Fight for your rights</h2>
+						<img class="section__image" src="http://testingppf.org/wp-content/uploads/2017/04/14560153_1340894389268917_4989747621491022833_o1-e1492109058471.jpg">
+						<div class="section__text">
+							We're fighting for the human right to health care for everyone in our state. Learn how you can be a part of the campaign.
+						</div>
+						<div class="section__more-button">Learn more </div>
+					</a>
+				</div>
+				<div class="section">
+					<a class="section__link" href="#">
+						<h2 class="section__title">Put People First! PA</h2>
+						<img class="section__image" src="http://testingppf.org/wp-content/uploads/2017/04/14560153_1340894389268917_4989747621491022833_o1-e1492109058471.jpg">
+						<div class="section__body">
+							<div class="section__text">
+								Uniting people across Pennsylvania to organize and claim our rights.
+							</div>
+							<div class="section__more-button">Learn more</div>
+						</div>
+					</a>
+				</div>
+				<div class="section">
+					<a class="section__link" href="#">
+						<h2 class="section__title">Put People First! PA</h2>
+						<img class="section__image" src="http://testingppf.org/wp-content/uploads/2017/04/14560153_1340894389268917_4989747621491022833_o1-e1492109058471.jpg">
+						<div class="section__text">
+							Uniting people across Pennsylvania to organize and claim our rights.
+						</div>
+						<div class="section__more-button">Learn more </div>
+					</a>
 				</div>
 			</div>
-			<div class="homepage__section">
-				<h2 class="homepage__section-title">Get involved</h2>
-				<div class="homepage__section-body">
-					<p>Here's a great call to action to get involved with PPF</p>
-					<p>Here's a link to donate or become a member, a box to sign up for our enewsletter, and other quick actions people can take.</p>
-					<p>Here's a link to a page with more details about how to get involved.</p>
-				</div>
-			</div>
-			<div class="homepage__section">
-				<h2 class="homepage__section-title">Recent updates</h2>
-				<div class="homepage__section-body">
-					<p>Here are our 3 most recent blog posts and their featured images.</p>
-					<p>Here's some links to follow us on Twitter, Facebook, and Instagram, too.<p>
-				</div>
+			<div class="quick-links">
+				<h2>Quick Links</h2>
+				<ul class="quick-links__list">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

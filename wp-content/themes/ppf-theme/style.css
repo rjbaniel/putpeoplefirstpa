@@ -257,15 +257,29 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+:root {
+	font-size: 16px
+}
+@media(min-width: 60rem) {
+	:root {
+		font-size: 17px;
+	}
+}
 body,
 button,
 input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
+	line-height: 1.5;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
 	line-height: 1.5;
 }
 
@@ -275,7 +289,19 @@ h3,
 h4,
 h5,
 h6 {
+	margin-top: 0;
+	margin-bottom: .5rem;
 	clear: both;
+}
+
+h1 {
+	font-size: 1.953rem;
+}
+h2 {
+	font-size: 1.563rem;
+}
+h3 {
+	font-size: 1.25rem;
 }
 
 dfn,
@@ -344,7 +370,7 @@ html {
 }
 
 body {
-	background: #fcfcfc; /* Fallback for when there is no custom background color defined. */
+	background-color: #fcfcfc; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -516,77 +542,75 @@ a:active {
 }
 
 .navigation-list {
-	list-style: none;
-	margin: 0;
+	display: flex;
+	max-width: 70rem;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
 	padding-left: 0;
 	font-size: 1.2em;
+	list-style: none;
 }
+
 .navigation-list__item {
 	display: block;
 	max-width: 15rem;
 }
 .navigation-list__item--home {
-	margin: 0 auto;
-	max-width: 10rem;
+	max-width: 3rem;
 }
 .navigation-list__item--home .navigation-list__item-link:focus {
 	background: none;
 	outline: .125rem dotted black;
 }
-.navigation-list__item:not(.navigation-list__item--home) .navigation-list__item-link {
-	padding: .5rem 0;
+.navigation-list__not-home::before {
+	content: "Menu";
+	cursor: pointer;
+	color: white;
+}
+.navigation-list__not-home .navigation-list__item {
+	display: none;
+}
+.navigation-list__not-home .navigation-list__item .navigation-list__item-link {
+	padding: .25rem 0;
 	display: block;
 	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .5px;
 }
 
 .navigation-list__item-link,
 .navigation-list__item-link:visited {
 	color: black;
 }
-.navigation-list__item-link:hover,
-.navigation-list__item-link:focus {
-	border-bottom: 5px solid black;
+.navigation-list__not-home .navigation-list__item-link:hover,
+.navigation-list__not-home .navigation-list__item-link:focus {
+	text-decoration: underline;
 }
-.navigation-list__item--current:not(.navigation-list__item--home) .navigation-list__item-link {
-	border-bottom: 5px solid black;
+.navigation-list__item-link {
+	text-decoration: underline;
 }
 
 .navigation-list__home-logo {
 	display: block;
-	max-height: 10rem;
-}
-
-@media(min-width: 40em) {
-	.navigation-list {
-		text-align: center;
-	}
-	.navigation-list__item:not(.navigation-list__item--home) {
-		display: inline-block;
-		margin-right: 2rem;
-		margin-top: 1rem;
-	}
+	max-height: 6rem;
 }
 
 @media(min-width: 60em) {
-	.navigation-list {
+	.navigation-list__not-home::before {
+		display: none;
+	}
+	.navigation-list__not-home {
 		display: flex;
+		flex-wrap: nowrap;
 		align-items: center;
 	}
-	.navigation-list__item {
-		margin-top: 0;
-	}
-	.navigation-list__item--home {
-		margin: 0;
-	}
-	.navigation-list__item:not(.navigation-list__item--home) {
-		margin-right: 2rem;
-	}
-	.navigation-list__item--home + .navigation-list__item {
-		margin-left: auto;
+	.navigation-list__not-home .navigation-list__item {
+		display: block;
+		margin: 0 .75rem;
 	}
 }
-
-
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -717,16 +741,11 @@ a:active {
 ## Posts and pages
 --------------------------------------------------------------*/
 .site {
-	padding: 0 1rem;
-	max-width: 70rem;
 	margin: 0 auto;
 }
 .site-header {
-	padding: .5rem 0;
-	border-bottom: 5px solid black;
-}
-.site-content {
-	margin: 1.5rem 0;
+	padding: .25rem;
+	background-color: #50a9a6;
 }
 
 .sticky {
@@ -774,13 +793,133 @@ a:active {
 /*--------------------------------------------------------------
 ## Homepage
 --------------------------------------------------------------*/
-.homepage__section {
-	height: 400px;
-	padding: 1rem;
-	margin-bottom: 2rem;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
+.section {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: whitesmoke;
 }
+.section__link,
+.section__link:visited {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+.section__text,
+.section__title,
+.section__more-button {
+	padding: .5rem;
+	margin: 0 .5rem;
+}
+
+.section__title {
+	display: block;
+	margin-bottom: 0;
+	color: white;
+	color: #444;
+}
+.section__image {
+	display: block;
+	padding: 0 .5rem;
+}
+
+@supports (object-fit: cover) {
+	.section__image {
+		min-height: 30vh;
+		max-height: 60vh;
+		object-fit: cover;
+	}
+}
+.section__text,
+.section__more-button {
+	background-color: #50a9a6;
+	color: white;
+}
+
+.section__more-button {
+	text-decoration: underline;
+}
+
+.section--hero > .section__link {
+	display: flex;
+	flex-direction: column;
+}
+.section--hero .section__title {
+	position: absolute;
+	top: .5rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(50, 50, 50, .6);
+	color: white;
+}
+.section--hero .section__image {
+	padding: 0;
+	order: -1;
+}
+.section--hero .section__text,
+.section--hero .section__more-button {
+	position: relative;
+	top: -1rem;
+	background-color: rgba(236, 76, 80,1);
+
+}
+
+@media(min-height: 40rem) and (min-width: 40rem) {
+	.section__title,
+	.section__image,
+	.section__text,
+	.section__more-button {
+		margin-bottom: .5rem;
+	}
+	.section__title {
+		display: inline-block;
+	}
+	.section__text,
+	.section__more-button {
+		font-size: 1.25rem;
+	}
+	.section__text > p:last-child {
+		margin-bottom: 0;
+	}
+	.section__more-button {
+		display: inline-block;
+		line-height: 1;
+		padding: 1rem;
+		background-color: #ec4c50;
+	}
+	.section--hero .section__title,
+	.section--hero .section__text,
+	.section--hero .section__more-button {
+		position: absolute;
+		left: 4rem;
+		top: auto;
+		padding: .5rem;
+		margin: 0;
+		background-color: rgba(50, 50, 50, .7);
+		color: white;
+	}
+	.section--hero .section__title {
+		top: 1rem;
+		right: auto;
+	}
+	.section--hero .section__text {
+		bottom: 8rem;
+	}
+	.section--hero .section__more-button {
+		bottom: 4rem;
+	}
+	.sections {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: start;
+		background-color: whitesmoke;
+	}
+	.sections > .section {
+		flex: 0 0 25rem;
+	}
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
